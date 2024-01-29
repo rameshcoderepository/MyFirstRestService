@@ -1,6 +1,7 @@
 package com.uniq.MyFirstRestService.MyFirstRestService.bean;
 
 public class HelloWorldBean {
+	
 	private String message;
 
 	private String dummyMessage;
