@@ -1,7 +1,7 @@
 package com.uniq.MyFirstRestService.MyFirstRestService.bean;
 
 public class HelloWorldBean {
-	
+
 	private String message;
 
 	private String dummyMessage;
@@ -16,16 +16,8 @@ public class HelloWorldBean {
 		return message;
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
-
 	public String getDummyMessage() {
 		return dummyMessage;
-	}
-
-	public void setDummyMessage(String dummyMessage) {
-		this.dummyMessage = dummyMessage;
 	}
 
 	@Override
